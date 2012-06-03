@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>mph.js</title>
+		<script src="js/util.js"></script>
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script src="js/mph.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.20.custom.css">
+		<style>
+			body{
+				color:#333;
+				font-family: sans-serif;
+				font-size:18px;
+				line-height:32px;
+				margin:30px;
+			}
+			div{
+				margin:0 0 10px 0;
+			}
+			.dot{
+				background-color:#CCC;
+				height:30px;
+				left:0px;
+				position:absolute;
+				top:0px;
+				width:30px;
+			}
+		</style>
+	</head>
+	<body>
+		fps: <div id="fps"></div> 
+		
+		dpi: <div id="dpi"></div> 
+		
+		<p>(1mph = 1.4667ft/s)</p>
+		<p>(1mph = 1728px/s)</p>
+		ft/s: <div id="fts"></div>
+		mph: <div id="mph"></div>
+		<div id="slider"></div>
+		
+		window-width: <div id="window-width"></div>px
+		window-height: <div id="window-height"></div>px
+				
+		screen-width: <div id="screen-width"></div>px
+		screen-height: <div id="screen-height"></div>px
+
+		<div class="dot" data-decimal-left="0"></div>
+		
+	</body>
+</html>

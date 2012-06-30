@@ -70,7 +70,7 @@ function updateFps(){
 
 $(function(){
 	// loop() calls render() at the rate of
-	// window.requestAnimationFrame or 60fps
+	// window.requestAnimationFrame, or 60fps
 	loop();
 	
 	updateStats();
